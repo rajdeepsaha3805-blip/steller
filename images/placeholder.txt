@@ -1,0 +1,1 @@
+This folder is intended for website images (e.g., logo, banners). Currently using external Unsplash images for premium UI demonstrations.

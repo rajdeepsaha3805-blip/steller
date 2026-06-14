@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stellar Summit 2026 - The Future of Tech</title>
+    <meta name="description"
+        content="Join industry leaders at Stellar Summit 2026. A premier technology conference exploring AI, Web3, and the future of digital experiences.">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Outfit:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS & JS -->
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
+</head>
+
+<body>
+
+    <!-- Loading Screen -->
+    <div id="loader" class="loader-wrapper">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Animated Gradient Orbs -->
+    <div class="bg-orbs">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <div class="container nav-container">
+            <!-- Clickable Stylish Logo -->
+            <a href="index.html" class="logo"
+                style="display: inline-flex; align-items: center; gap: 0.6rem; text-decoration: none; font-weight: 700; font-size: 1.5rem; color: inherit; letter-spacing: -0.02em;">
+                <svg width="28" height="28" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"
+                    style="display: block;">
+                    <defs>
+                        <linearGradient id="stellar-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="#6366F1" />
+                            <stop offset="50%" stop-color="#A855F7" />
+                            <stop offset="100%" stop-color="#EC4899" />
+                        </linearGradient>
+                    </defs>
+                    <!-- Modern Asymmetric Flare Star -->
+                    <path
+                        d="M16 2C16 2 17.5 11.5 21 15C24.5 18.5 30 16 30 16C30 16 24.5 19.5 21 23C17.5 26.5 16 30 16 30C16 30 14.5 26.5 11 23C7.5 19.5 2 16 2 16C2 16 7.5 18.5 11 15C14.5 11.5 16 2 16 2Z"
+                        fill="url(#stellar-grad)" />
+                    <circle cx="16" cy="16" r="3" fill="#FFFFFF" opacity="0.9" />
+                </svg>
+                <span>Stellar Summit<span style="color: #A855F7;">.</span></span>
+            </a>
+
+            <nav id="nav-links" class="nav-links">
+                <a href="#schedule">Schedule</a>
+                <a href="#speakers">Speakers</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#register">Register</a>
+            </nav>
+
+            <div class="header-actions">
+                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Dark/Light Mode">
+                    ◑
+                </button>
+                <a href="#register" class="btn btn-secondary">Get Tickets</a>
+                <button id="mobile-menu-btn" class="mobile-menu-btn" aria-label="Open Menu">☰</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <div class="reveal active" style="max-width: 800px; margin: 0 auto;">
+                    <span class="eyebrow" style="text-align: center;">October 24-26, 2026 • San Francisco, CA</span>
+                    <h1>Where the future of tech <span class="text-gradient">converges</span>.</h1>
+                    <p class="lead" style="text-align: center;">Join 5,000+ innovators, engineers, and founders for
+                        three days of immersive keynotes, workshops, and networking.</p>
+                    <div style="display: flex; gap: 1rem; justify-content: center; margin-top: 2rem;">
+                        <a href="#register" class="btn btn-primary">Secure Your Spot →</a>
+                        <a href="#schedule" class="btn btn-secondary">View Agenda</a>
+                    </div>
+                </div>
+
+                <div class="reveal mt-8" style="transition-delay: 0.2s;">
+                    <div class="glass-card" style="border-radius: 24px; padding: 1rem; position: relative;">
+                        <div
+                            style="background: var(--bg-tertiary); border-radius: 16px; aspect-ratio: 21/9; display: flex; align-items: center; justify-content: center; border: 1px solid var(--border-color); overflow: hidden; position: relative;">
+                            <img src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&w=1600&q=80"
+                                alt="Tech Conference Crowd"
+                                style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8;">
+                            <div
+                                style="position: absolute; inset: 0; background: linear-gradient(to top, var(--bg-tertiary), transparent);">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sponsors / Trusted By -->
+        <section class="clients-section reveal">
+            <div class="container">
+                <p class="text-center text-tertiary mb-2"
+                    style="font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.1em; font-weight: 600;">
+                    Sponsored by industry leaders</p>
+                <div class="clients-grid">
+                    <h3
+                        style="color: var(--text-tertiary); font-family: 'Inter'; font-weight: 800; font-size: 1.5rem; margin: 0;">
+                        Google</h3>
+                    <h3
+                        style="color: var(--text-tertiary); font-family: 'Inter'; font-weight: 800; font-size: 1.5rem; margin: 0;">
+                        Microsoft</h3>
+                    <h3
+                        style="color: var(--text-tertiary); font-family: 'Inter'; font-weight: 800; font-size: 1.5rem; margin: 0;">
+                        Vercel</h3>
+                    <h3
+                        style="color: var(--text-tertiary); font-family: 'Inter'; font-weight: 800; font-size: 1.5rem; margin: 0;">
+                        Stripe</h3>
+                    <h3
+                        style="color: var(--text-tertiary); font-family: 'Inter'; font-weight: 800; font-size: 1.5rem; margin: 0;">
+                        Figma</h3>
+                </div>
+            </div>
+        </section>
+
+        <!-- Animated Event Cards (Schedule highlights) -->
+        <section id="schedule" class="section container" style="border-top: 1px solid var(--border-color);">
+            <div class="text-center mb-8 reveal">
+                <span class="eyebrow text-center">The Agenda</span>
+                <h2>Featured Sessions</h2>
+                <p style="margin: 0 auto;">Discover what we have planned for the three days of Stellar Summit.</p>
+            </div>
+
+            <div class="grid grid-3">
+                <div class="event-card reveal">
+                    <img class="event-card-img"
+                        src="https://images.unsplash.com/photo-1505373877841-8d25f7d46678?auto=format&fit=crop&w=800&q=80"
+                        alt="Keynote Session">
+                    <div class="event-card-content">
+                        <span class="event-date">Oct 24 • 10:00 AM</span>
+                        <h3>Opening Keynote: The AI Revolution</h3>
+                        <p style="font-size: 0.9375rem; flex-grow: 1;">Explore how generative AI is reshaping the
+                            software engineering landscape and what it means for your business.</p>
+                        <a href="#"
+                            style="color: var(--accent-primary); text-decoration: none; font-weight: 600; font-size: 0.9375rem;">View
+                            Details →</a>
+                    </div>
+                </div>
+
+                <div class="event-card reveal" style="transition-delay: 0.2s;">
+                    <img class="event-card-img"
+                        src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=800&q=80"
+                        alt="Workshop Session">
+                    <div class="event-card-content">
+                        <span class="event-date">Oct 25 • 2:00 PM</span>
+                        <h3>Masterclass: Scaling Next.js</h3>
+                        <p style="font-size: 0.9375rem; flex-grow: 1;">A hands-on workshop on building highly performant
+                            and scalable architectures using modern React frameworks.</p>
+                        <a href="#"
+                            style="color: var(--accent-primary); text-decoration: none; font-weight: 600; font-size: 0.9375rem;">View
+                            Details →</a>
+                    </div>
+                </div>
+
+                <div class="event-card reveal" style="transition-delay: 0.4s;">
+                    <img class="event-card-img"
+                        src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=800&q=80"
+                        alt="Networking Event">
+                    <div class="event-card-content">
+                        <span class="event-date">Oct 26 • 7:00 PM</span>
+                        <h3>Closing Gala & Networking</h3>
+                        <p style="font-size: 0.9375rem; flex-grow: 1;">Wrap up the summit with an exclusive rooftop
+                            networking event featuring live music, drinks, and connections.</p>
+                        <a href="#"
+                            style="color: var(--accent-primary); text-decoration: none; font-weight: 600; font-size: 0.9375rem;">View
+                            Details →</a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-8 reveal">
+                <a href="#" class="btn btn-secondary">View Full Schedule</a>
+            </div>
+        </section>
+
+        <!-- Organizer Profile Cards -->
+        <section id="speakers" class="section container" style="border-top: 1px solid var(--border-color);">
+            <div class="text-center mb-8 reveal">
+                <span class="eyebrow text-center">World-Class Minds</span>
+                <h2>Meet the Speakers</h2>
+                <p style="margin: 0 auto;">Learn directly from the innovators pushing the boundaries of technology.</p>
+            </div>
+
+            <div class="grid grid-4 reveal">
+                <div class="organizer-card">
+                    <img src="/images/Rajdeep.jpg" alt="Rajdeep" class="organizer-avatar">
+                    <h3 style="font-size: 1.25rem; margin-bottom: 0.25rem;">Rajdeep</h3>
+                    <p style="font-size: 0.875rem; color: var(--text-tertiary); margin-bottom: 0;">CEO Of Raj
+                        department,India</p>
+                    <div class="organizer-socials">
+                        <a href="#">Twitter</a>
+                        <a href="#">LinkedIn</a>
+                    </div>
+                </div>
+
+                <div class="organizer-card" style="transition-delay: 0.1s;">
+                    <img src="/images/soumit.jpg" alt="soumit" class="organizer-avatar">
+                    <h3 style="font-size: 1.25rem; margin-bottom: 0.25rem;">Soumit</h3>
+                    <p style="font-size: 0.875rem; color: var(--text-tertiary); margin-bottom: 0;">Project manager
+                    </p>
+                    <div class="organizer-socials">
+                        <a href="#">Twitter</a>
+                        <a href="#">LinkedIn</a>
+                    </div>
+                </div>
+
+                <div class="organizer-card" style="transition-delay: 0.2s;">
+                    <img src="/images/arya.jpg" alt="arya" class="organizer-avatar">
+                    <h3 style="font-size: 1.25rem; margin-bottom: 0.25rem;">Arya</h3>
+                    <p style="font-size: 0.875rem; color: var(--text-tertiary); margin-bottom: 0;">Head of AI Research
+                    </p>
+                    <div class="organizer-socials">
+                        <a href="#">Twitter</a>
+                        <a href="#">LinkedIn</a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Photo Gallery Section -->
+        <section id="gallery" class="section container" style="border-top: 1px solid var(--border-color);">
+            <div class="text-center mb-8 reveal">
+                <span class="eyebrow text-center">Past Events</span>
+                <h2>Event Highlights</h2>
+                <p style="margin: 0 auto;">A glimpse into the energy and innovation at previous Stellar Summits.</p>
+            </div>
+
+            <div class="gallery-grid reveal">
+
+                <div class="gallery-item">
+                    <img src="/images/Buro 1.jpeg" alt="Networking">
+                </div>
+                <div class="gallery-item">
+                    <img src="/images/Buro 2.jpeg" alt="Speaker on stage">
+                </div>
+                <div class="gallery-item">
+                    <img src="/images/Buro 3.jpeg" alt="Workshop">
+                </div>
+                <div class="gallery-item">
+                    <img src="/images/buro4.jpeg" alt="Audience">
+                </div>
+            </div>
+        </section>
+
+        <!-- Integrated Contact/Registration Form -->
+        <section id="register" class="section container" style="border-top: 1px solid var(--border-color);">
+            <div class="split-layout">
+                <div class="reveal-left">
+                    <span class="eyebrow">Registration</span>
+                    <h2>Secure Your Pass Today.</h2>
+                    <p>Early bird tickets are now available. Don't miss out on the premier tech event of the year. Space
+                        is limited.</p>
+                    <ul class="features-list">
+                        <li>Access to all keynotes and panels</li>
+                        <li>Interactive workshops</li>
+                        <li>Exclusive networking events</li>
+                        <li>Catered lunches & after-party access</li>
+                    </ul>
+                </div>
+                <div class="reveal">
+                    <div class="glass-card" style="padding: 2.5rem; border-radius: 24px;">
+                        <h3 style="margin-bottom: 1.5rem;">Reserve Ticket</h3>
+                        <form id="registration-form"
+                            onsubmit="event.preventDefault(); alert('Registration submitted!');">
+                            <div class="form-group">
+                                <label for="name">Full Name</label>
+                                <input type="text" id="name" class="form-control" placeholder="John Doe" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Work Email</label>
+                                <input type="email" id="email" class="form-control" placeholder="john@company.com"
+                                    required>
+                            </div>
+                            <div class="form-group">
+                                <label for="ticket-type">Ticket Type</label>
+                                <select id="ticket-type" class="form-control"
+                                    style="appearance: none; background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%239ca3af%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E'); background-repeat: no-repeat; background-position: right 1rem top 50%; background-size: 0.65rem auto;"
+                                    required>
+                                    <option value="" disabled selected>Select an option...</option>
+                                    <option value="early-bird">Early Bird Pass ($499)</option>
+                                    <option value="standard">Standard Pass ($799)</option>
+                                    <option value="vip">VIP All-Access ($1,299)</option>
+                                </select>
+                            </div>
+                            <button type="submit" class="btn btn-primary"
+                                style="width: 100%; margin-top: 1rem;">Complete Registration</button>
+                            <p style="font-size: 0.75rem; text-align: center; margin-top: 1rem; margin-bottom: 0;">By
+                                registering, you agree to our Terms of Service & Privacy Policy.</p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <!-- Clickable Footer Logo -->
+                    <a href="index.html" class="logo"
+                        style="display: inline-flex; align-items: center; gap: 0.6rem; text-decoration: none; font-weight: 700; font-size: 1.5rem; color: inherit; letter-spacing: -0.02em; margin-bottom: 1.5rem;">
+                        <svg width="28" height="28" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"
+                            style="display: block;">
+                            <path
+                                d="M16 2C16 2 17.5 11.5 21 15C24.5 18.5 30 16 30 16C30 16 24.5 19.5 21 23C17.5 26.5 16 30 16 30C16 30 14.5 26.5 11 23C7.5 19.5 2 16 2 16C2 16 7.5 18.5 11 15C14.5 11.5 16 2 16 2Z"
+                                fill="url(#stellar-grad)" />
+                            <circle cx="16" cy="16" r="3" fill="#FFFFFF" opacity="0.9" />
+                        </svg>
+                        <span>Stellar Summit<span style="color: #A855F7;">.</span></span>
+                    </a>
+                    <p style="font-size: 0.9375rem; max-width: 300px;">The premier technology conference exploring AI,
+                        Web3, and the future of digital experiences.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Event Info</h4>
+                    <ul class="footer-links">
+                        <li><a href="#schedule">Schedule</a></li>
+                        <li><a href="#speakers">Speakers</a></li>
+                        <li><a href="#">Venue Map</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>About</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Our Story</a></li>
+                        <li><a href="#">Sponsors</a></li>
+                        <li><a href="#">Code of Conduct</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Legal</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Ticketing Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Stellar Summit. All rights reserved.</p>
+                <div style="display: flex; gap: 1rem;">
+                    <a href="#"
+                        style="color: var(--text-tertiary); text-decoration: none; transition: color 0.2s;">Twitter</a>
+                    <a href="#"
+                        style="color: var(--text-tertiary); text-decoration: none; transition: color 0.2s;">LinkedIn</a>
+                    <a href="#"
+                        style="color: var(--text-tertiary); text-decoration: none; transition: color 0.2s;">Instagram</a>
+                    <a href="#"
+                        style="color: var(--text-tertiary); text-decoration: none; transition: color 0.2s;">YouTube</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

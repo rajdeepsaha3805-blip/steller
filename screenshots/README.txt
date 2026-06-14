@@ -1,0 +1,1 @@
+Since automated screenshots cannot be physically taken and saved here without a browser engine running locally, please open the HTML files in your browser and use Snipping Tool or a browser extension to capture the final screenshots. The UI is completely ready!
