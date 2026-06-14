@@ -941,10 +941,22 @@ footer {
     top: 100%;
     left: 0;
     width: 100%;
-    background: var(--bg-secondary);
+    height: calc(100vh - 5rem);
+    background: var(--glass-bg);
+    backdrop-filter: blur(24px);
+    -webkit-backdrop-filter: blur(24px);
     padding: 2rem;
-    border-bottom: 1px solid var(--border-color);
-    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    border-bottom: 1px solid var(--glass-border);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+    z-index: 999;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+  }
+  
+  .nav-links.mobile-active a {
+    font-size: 1.5rem;
+    font-weight: 600;
   }
 }
 

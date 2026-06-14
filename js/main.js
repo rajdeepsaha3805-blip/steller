@@ -44,6 +44,21 @@ document.addEventListener('DOMContentLoaded', () => {
             navLinks.classList.toggle('mobile-active');
             const isExpanded = navLinks.classList.contains('mobile-active');
             mobileMenuBtn.innerHTML = isExpanded ? '✕' : '☰';
+            
+            // Toggle body scrolling
+            document.body.style.overflow = isExpanded ? 'hidden' : '';
+        });
+
+        // Close mobile menu on link click
+        const links = navLinks.querySelectorAll('a');
+        links.forEach(link => {
+            link.addEventListener('click', () => {
+                if (navLinks.classList.contains('mobile-active')) {
+                    navLinks.classList.remove('mobile-active');
+                    mobileMenuBtn.innerHTML = '☰';
+                    document.body.style.overflow = '';
+                }
+            });
         });
     }
 
