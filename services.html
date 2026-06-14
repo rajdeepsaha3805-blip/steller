@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solutions - Stellar</title>
+    <meta name="description" content="Discover Stellar's end-to-end digital solutions, from UI/UX design to enterprise cloud architecture.">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- CSS & JS -->
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+
+    <!-- Loading Screen -->
+    <div id="loader" class="loader-wrapper">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Animated Gradient Orbs -->
+    <div class="bg-orbs">
+        <div class="orb orb-1" style="background: var(--accent-secondary); opacity: 0.2;"></div>
+        <div class="orb orb-2" style="background: var(--accent-primary); opacity: 0.15;"></div>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon"></span>
+                Stellar.
+            </a>
+            
+            <nav id="nav-links" class="nav-links">
+                <a href="index.html">Platform</a>
+                <a href="services.html" class="active">Solutions</a>
+                <a href="about.html">Company</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+            
+            <div class="header-actions">
+                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Dark/Light Mode">
+                    ◑
+                </button>
+                <a href="contact.html" class="btn btn-secondary">Get Started</a>
+                <button id="mobile-menu-btn" class="mobile-menu-btn" aria-label="Open Menu">☰</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Solutions Hero Section -->
+        <section class="hero" style="min-height: 60vh; padding-bottom: 4rem;">
+            <div class="container">
+                <div class="reveal active text-center">
+                    <span class="eyebrow">Capabilities</span>
+                    <h1 style="max-width: 900px; margin: 0 auto 1.5rem;">End-to-end solutions for <br><span class="text-gradient">modern internet</span> businesses.</h1>
+                    <p class="lead" style="max-width: 700px; margin: 0 auto;">We don't just write code. We architect scalable platforms, design intuitive user experiences, and engineer systems that drive measurable growth.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Grid -->
+        <section class="section container" style="padding-top: 0;">
+            <div class="grid grid-2">
+                <div class="card glass-card reveal">
+                    <div style="width: 48px; height: 48px; border-radius: 12px; background: rgba(59, 130, 246, 0.1); border: 1px solid rgba(59, 130, 246, 0.2); display: flex; align-items: center; justify-content: center; margin-bottom: 1.5rem; color: var(--accent-primary);">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+                    </div>
+                    <h3>Product Design (UI/UX)</h3>
+                    <p>Design systems, wireframing, and high-fidelity prototyping. We create interfaces that are not only visually stunning but fundamentally accessible and intuitive.</p>
+                    <ul class="features-list" style="margin: 1rem 0 0; font-size: 0.9375rem;">
+                        <li style="padding: 0.5rem 0;">Design Systems & Tokens</li>
+                        <li style="padding: 0.5rem 0;">User Research & Testing</li>
+                        <li style="padding: 0.5rem 0; border: none;">Interaction Design</li>
+                    </ul>
+                </div>
+
+                <div class="card glass-card reveal" style="transition-delay: 0.1s;">
+                    <div style="width: 48px; height: 48px; border-radius: 12px; background: rgba(168, 85, 247, 0.1); border: 1px solid rgba(168, 85, 247, 0.2); display: flex; align-items: center; justify-content: center; margin-bottom: 1.5rem; color: var(--accent-secondary);">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+                    </div>
+                    <h3>Frontend Engineering</h3>
+                    <p>Pixel-perfect implementation using React, Next.js, and modern CSS frameworks. We prioritize performance, SEO, and seamless animations.</p>
+                    <ul class="features-list" style="margin: 1rem 0 0; font-size: 0.9375rem;">
+                        <li style="padding: 0.5rem 0;">React / Vue / Svelte</li>
+                        <li style="padding: 0.5rem 0;">Web Animations (WebGL, Framer)</li>
+                        <li style="padding: 0.5rem 0; border: none;">State Management</li>
+                    </ul>
+                </div>
+
+                <div class="card glass-card reveal">
+                    <div style="width: 48px; height: 48px; border-radius: 12px; background: rgba(244, 63, 94, 0.1); border: 1px solid rgba(244, 63, 94, 0.2); display: flex; align-items: center; justify-content: center; margin-bottom: 1.5rem; color: var(--accent-tertiary);">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path></svg>
+                    </div>
+                    <h3>Backend & Infrastructure</h3>
+                    <p>Scalable APIs, database architecture, and cloud deployments. We build secure foundations that handle millions of requests without breaking a sweat.</p>
+                    <ul class="features-list" style="margin: 1rem 0 0; font-size: 0.9375rem;">
+                        <li style="padding: 0.5rem 0;">Node.js / Python / Go</li>
+                        <li style="padding: 0.5rem 0;">PostgreSQL & Redis</li>
+                        <li style="padding: 0.5rem 0; border: none;">AWS & Vercel Deployments</li>
+                    </ul>
+                </div>
+
+                <div class="card glass-card reveal" style="transition-delay: 0.1s;">
+                    <div style="width: 48px; height: 48px; border-radius: 12px; background: rgba(16, 185, 129, 0.1); border: 1px solid rgba(16, 185, 129, 0.2); display: flex; align-items: center; justify-content: center; margin-bottom: 1.5rem; color: #10b981;">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                    </div>
+                    <h3>Technical Audits & SEO</h3>
+                    <p>Comprehensive reviews of your existing stack. We identify bottlenecks, improve Core Web Vitals, and ensure your site ranks perfectly.</p>
+                    <ul class="features-list" style="margin: 1rem 0 0; font-size: 0.9375rem;">
+                        <li style="padding: 0.5rem 0;">Core Web Vitals Optimization</li>
+                        <li style="padding: 0.5rem 0;">Accessibility (A11y) Audits</li>
+                        <li style="padding: 0.5rem 0; border: none;">Technical SEO Implementation</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Process Section -->
+        <section class="section container" style="border-top: 1px solid var(--border-color);">
+            <div class="text-center mb-8 reveal">
+                <span class="eyebrow text-center">Methodology</span>
+                <h2>How we build.</h2>
+                <p style="margin: 0 auto;">A transparent, agile process designed to ship quality fast.</p>
+            </div>
+            
+            <div class="grid grid-3">
+                <div class="reveal" style="position: relative; padding-left: 2rem; border-left: 2px solid var(--border-color);">
+                    <div style="position: absolute; left: -10px; top: 0; width: 18px; height: 18px; border-radius: 50%; background: var(--bg-primary); border: 2px solid var(--accent-primary);"></div>
+                    <span style="font-family: 'Outfit'; font-weight: 800; font-size: 2rem; color: var(--border-color); display: block; margin-bottom: 0.5rem; line-height: 1;">01</span>
+                    <h3>Discovery</h3>
+                    <p style="font-size: 0.9375rem;">We start by understanding your business logic, user pain points, and technical constraints.</p>
+                </div>
+                
+                <div class="reveal" style="position: relative; padding-left: 2rem; border-left: 2px solid var(--border-color); transition-delay: 0.1s;">
+                    <div style="position: absolute; left: -10px; top: 0; width: 18px; height: 18px; border-radius: 50%; background: var(--bg-primary); border: 2px solid var(--accent-secondary);"></div>
+                    <span style="font-family: 'Outfit'; font-weight: 800; font-size: 2rem; color: var(--border-color); display: block; margin-bottom: 0.5rem; line-height: 1;">02</span>
+                    <h3>Architecture</h3>
+                    <p style="font-size: 0.9375rem;">Mapping out the data flow, component hierarchy, and establishing the design system tokens.</p>
+                </div>
+                
+                <div class="reveal" style="position: relative; padding-left: 2rem; border-left: 2px solid var(--border-color); transition-delay: 0.2s;">
+                    <div style="position: absolute; left: -10px; top: 0; width: 18px; height: 18px; border-radius: 50%; background: var(--bg-primary); border: 2px solid var(--accent-tertiary);"></div>
+                    <span style="font-family: 'Outfit'; font-weight: 800; font-size: 2rem; color: var(--border-color); display: block; margin-bottom: 0.5rem; line-height: 1;">03</span>
+                    <h3>Execution</h3>
+                    <p style="font-size: 0.9375rem;">Two-week sprints of development, continuous integration, and regular stakeholder check-ins.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="section container" style="border-top: 1px solid var(--border-color); text-align: center;">
+            <div class="card glass-card reveal" style="max-width: 800px; margin: 0 auto; background: linear-gradient(135deg, var(--bg-tertiary), var(--bg-secondary));">
+                <h2>Ready to scale?</h2>
+                <p style="margin: 0 auto 2rem;">Let's discuss how we can help your engineering and design teams move faster.</p>
+                <a href="contact.html" class="btn btn-primary">Book a Consultation</a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <a href="index.html" class="logo" style="margin-bottom: 1.5rem;">
+                        <span class="logo-icon"></span> Stellar.
+                    </a>
+                    <p style="font-size: 0.9375rem; max-width: 300px;">Designing and engineering digital products for the next generation of internet businesses.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Platform</h4>
+                    <ul class="footer-links">
+                        <li><a href="services.html">Design Systems</a></li>
+                        <li><a href="services.html">Web Development</a></li>
+                        <li><a href="services.html">Mobile Apps</a></li>
+                        <li><a href="services.html">Performance</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul class="footer-links">
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="about.html">Careers</a></li>
+                        <li><a href="about.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Legal</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Cookie Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Stellar Digital Agency. All rights reserved.</p>
+                <div style="display: flex; gap: 1rem;">
+                    <a href="#" style="color: var(--text-tertiary); text-decoration: none;">Twitter</a>
+                    <a href="#" style="color: var(--text-tertiary); text-decoration: none;">GitHub</a>
+                    <a href="#" style="color: var(--text-tertiary); text-decoration: none;">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
